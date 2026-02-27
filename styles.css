@@ -3,19 +3,23 @@
     margin: 0px;
     box-sizing: border-box;
 }
-
+body{
+    background:rgb(30,30,30);
+}
 .container{
-    align-items: center;
-   margin-top:100px;
-    border:2px solid red;
-    text-align: center;
-   height:600px;
-   width: 420px;
+  align-items: center;
+  margin-top:100px;
+  border:2px solid #444;
+  text-align: center;
+  height:600px;
+  width: 420px;
   margin-left:550px;
-  background: rgb(44,44,44);
-  
+  background-color: rgb(44,44,44);
+  border-radius: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  h2{
+ 
 
-     h2{
        margin-top: 15px;
     
         color: white;
@@ -24,22 +28,42 @@
      }
 }
 .res{
-    margin: 20px;
-    width: 350px;
-    height: 70px;
-   color: rgb(181,181,181);
+   margin: 20px;
+   width: 370px;
+   height: 70px;
+   background-color: rgb(181,181,181);
+   border-radius:10px ;
+   -webkit-border-radius:7px ;
+   -moz-border-radius:10px ;
+   -ms-border-radius:10px ;
+   -o-border-radius:10px ;
+   text-align: end;
 }
 .keys{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
-    margin: 5px;
+    margin: 2px 20px;
     height: 300px;
 
+}
+button{
+    color:white;
+    background: #444;
+}
 
-
+.keys:hover{
+    color: black;
 }
 
 #history{
     margin-top: 20px;
+    color: aliceblue;
+
+}
+.history{
+    list-style: circle;
+    color: white;
+    text-align: left;
+    margin-left: 30px;
 }
