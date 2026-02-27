@@ -5,6 +5,11 @@
 }
 body{
     background:rgb(30,30,30);
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
 }
 .container{
   align-items: center;
